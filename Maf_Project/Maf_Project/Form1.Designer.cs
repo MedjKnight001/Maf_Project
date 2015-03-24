@@ -32,16 +32,15 @@
             this.відкритиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.лічильникиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.коректориToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.доступДоАІСToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.вихідToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.справочнаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.містаТаФіліїToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.графікПовірокToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.проПрограмуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.азазаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +50,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.відкритиToolStripMenuItem,
             this.справочнаToolStripMenuItem,
-            this.справкаToolStripMenuItem});
+            this.справкаToolStripMenuItem,
+            this.азазаToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(625, 24);
@@ -63,7 +63,6 @@
             this.відкритиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.лічильникиToolStripMenuItem,
             this.коректориToolStripMenuItem,
-            this.доступДоАІСToolStripMenuItem,
             this.toolStripSeparator1,
             this.вихідToolStripMenuItem});
             this.відкритиToolStripMenuItem.MergeIndex = 0;
@@ -74,35 +73,26 @@
             // лічильникиToolStripMenuItem
             // 
             this.лічильникиToolStripMenuItem.Name = "лічильникиToolStripMenuItem";
-            this.лічильникиToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.лічильникиToolStripMenuItem.Text = "Лічильники";
+            this.лічильникиToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.лічильникиToolStripMenuItem.Text = "Гравці";
             this.лічильникиToolStripMenuItem.Click += new System.EventHandler(this.лічильникиToolStripMenuItem_Click);
             // 
             // коректориToolStripMenuItem
             // 
             this.коректориToolStripMenuItem.Name = "коректориToolStripMenuItem";
-            this.коректориToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.коректориToolStripMenuItem.Text = "Коректори";
+            this.коректориToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.коректориToolStripMenuItem.Text = "Ігри";
             this.коректориToolStripMenuItem.Click += new System.EventHandler(this.коректориToolStripMenuItem_Click);
-            // 
-            // доступДоАІСToolStripMenuItem
-            // 
-            this.доступДоАІСToolStripMenuItem.Name = "доступДоАІСToolStripMenuItem";
-            this.доступДоАІСToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.доступДоАІСToolStripMenuItem.Text = "Доступ до АІС";
-            this.доступДоАІСToolStripMenuItem.Click += new System.EventHandler(this.доступДоАІСToolStripMenuItem_Click);
-            this.доступДоАІСToolStripMenuItem.MouseEnter += new System.EventHandler(this.доступДоАІСToolStripMenuItem_MouseEnter);
-            this.доступДоАІСToolStripMenuItem.MouseLeave += new System.EventHandler(this.доступДоАІСToolStripMenuItem_MouseLeave);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(106, 6);
             // 
             // вихідToolStripMenuItem
             // 
             this.вихідToolStripMenuItem.Name = "вихідToolStripMenuItem";
-            this.вихідToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.вихідToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.вихідToolStripMenuItem.Text = "Вихід";
             this.вихідToolStripMenuItem.Click += new System.EventHandler(this.вихідToolStripMenuItem_Click);
             this.вихідToolStripMenuItem.MouseEnter += new System.EventHandler(this.вихідToolStripMenuItem_MouseEnter);
@@ -111,8 +101,7 @@
             // справочнаToolStripMenuItem
             // 
             this.справочнаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.містаТаФіліїToolStripMenuItem,
-            this.графікПовірокToolStripMenuItem});
+            this.містаТаФіліїToolStripMenuItem});
             this.справочнаToolStripMenuItem.MergeIndex = 1;
             this.справочнаToolStripMenuItem.Name = "справочнаToolStripMenuItem";
             this.справочнаToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
@@ -121,16 +110,9 @@
             // містаТаФіліїToolStripMenuItem
             // 
             this.містаТаФіліїToolStripMenuItem.Name = "містаТаФіліїToolStripMenuItem";
-            this.містаТаФіліїToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.містаТаФіліїToolStripMenuItem.Text = "Міста та філії";
+            this.містаТаФіліїToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.містаТаФіліїToolStripMenuItem.Text = "Графік проведення";
             this.містаТаФіліїToolStripMenuItem.Visible = false;
-            // 
-            // графікПовірокToolStripMenuItem
-            // 
-            this.графікПовірокToolStripMenuItem.Name = "графікПовірокToolStripMenuItem";
-            this.графікПовірокToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.графікПовірокToolStripMenuItem.Text = "Історія перевірок";
-            this.графікПовірокToolStripMenuItem.Click += new System.EventHandler(this.графікПовірокToolStripMenuItem_Click);
             // 
             // справкаToolStripMenuItem
             // 
@@ -162,6 +144,12 @@
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
+            // 
+            // азазаToolStripMenuItem
+            // 
+            this.азазаToolStripMenuItem.Name = "азазаToolStripMenuItem";
+            this.азазаToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.азазаToolStripMenuItem.Text = "азаза";
             // 
             // Form1
             // 
@@ -196,11 +184,10 @@
         private System.Windows.Forms.ToolStripMenuItem проПрограмуToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ToolStripMenuItem доступДоАІСToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem лічильникиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem коректориToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem містаТаФіліїToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem графікПовірокToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem азазаToolStripMenuItem;
     }
 }
 
